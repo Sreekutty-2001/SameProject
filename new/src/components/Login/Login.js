@@ -1,15 +1,12 @@
 import React from 'react'
+
 function Login() {
   return (
     <>
-     <div>
-    </div>
+     <div className=''>kjhjkh</div> 
     </>
+   
   )
 }
+
 export default Login
-
-
- 
-    
-      

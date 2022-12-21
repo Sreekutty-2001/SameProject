@@ -1,0 +1,10 @@
+#logo{
+     box-shadow: 0px 0px 5px black;
+    height: 15vh;
+    /* background-color: red; */
+ }
+ .login-signup{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+ }

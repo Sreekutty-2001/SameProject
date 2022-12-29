@@ -1,0 +1,72 @@
+.sign-form {
+    margin-top: 40px;
+    /* background-color: rgb(251, 14, 14); */
+    height: 400px;
+    /* box-shadow:  inset 0 5px 5px -5px black ; */
+    width: 300px;
+    /* background-color: rgb(255, 255, 255); */
+    margin-left: 40px;
+}
+
+
+.signup {
+    /* margin-left: 50px; */
+    /* margin-top: 150px; */
+    padding-top: -4px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+  
+    /* align-items: center; */
+    background-image: url(../../assests/bgc\ 2.jpg);
+    width: 100%;
+    height: 550px;
+    padding-left: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.signup h6{
+
+    margin-top: 5px;
+}
+
+.sign-heading {
+    margin-top: 40px;
+    /* margin-right: 100px; */
+    margin-left: 40px;
+    
+}
+.start{
+    font-size: small;
+    color: #0d6efd;
+}
+
+#signup-btn {
+    border-radius: 0;
+    margin-right: 200px;
+    width: 100px;
+    margin-top: 5px;
+}
+.signup-footer {
+    /* background-color: aqua; */
+    margin-top: 20px;
+}
+.with{
+    /* background-color: aqua; */
+    font-size: small;
+}
+.Terms{
+    font-size: small;
+    /* background-color: aqua; */
+}
+#link{
+    text-decoration: none;
+}
+.main{
+    background-color: white;
+    width: 400px;
+    padding-top: 20px;
+    
+   
+}

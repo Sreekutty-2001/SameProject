@@ -1,19 +1,63 @@
-.background-img{
-background-image: url(../../assests/bgc\ 2.jpg);
-box-shadow: inset 0 0 25px 10px black;
-background-repeat: no-repeat;
-background-size: cover;
-padding-top: 800px;
+.background-img {
+    background-image: url(../../assests/bgc\ 2.jpg);
+    box-shadow: inset 0 0 25px 10px black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding-top: 800px; */
+    /* background-color: blueviolet; */
+    background-position: center;
+    height: 550px;
+    width: 100%;
+}
+
+.login-form-div {
+    width: 400px;
+    /* margin-left: 50px; */
+    /* margin-top: 150px; */
+    /* padding-top: 60px; */
+    background-color: rgb(255, 255, 255);
+     height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
 }
-.login-form{
-    width: 350px;
-    padding-left: 50px;
-    /* margin-top: 70px; */
-    /* padding-top: 60px; */
-    padding-left: 170px;
-   /* background-color: antiquewhite; */
-   width: 40%;
+
+.login-form {
    
-   
+    margin-top: 40px;
+    /* background-color: rgb(251, 14, 14); */
+    height: 400px;
+    /* box-shadow:  inset 0 5px 5px -5px black ; */
+    width: 300px;
+
+}
+.heading{
+    /* background-color: blueviolet; */
+    width: 100%;
+    height: 3pc;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+#login-btn{
+    width:100px ;
+    border-radius: 0;
+}
+.signup-heading{
+    margin-top: 20px;
+    margin-left: 35px;
+    font-size: small
+}
+.signup-link{
+    text-decoration:none ;
+}
+.btn-fgps{
+    display: flex;
+    justify-content: space-between ;
+}
+.btn-fgps h6{
+    margin-top: 10px;
+}
+.forgotpass{
+    font-size: small;
 }

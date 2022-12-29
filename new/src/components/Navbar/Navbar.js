@@ -14,10 +14,15 @@ function Navbar() {
             <div style={{  width: "50vw" }} className="login-signup">
                 <NavLink style={{ textDecoration: "none"  }} to={"/login"}><Button variant="text">Login</Button></NavLink>
                 <NavLink style={{ textDecoration: "none" }} to={"/signup"}><Button variant="text">Sign Up</Button></NavLink>
+                
                 <Badge badgeContent={5} color="warning">
                 <i style={{fontSize:25}} class="fa-solid fa-cart-shopping"></i>
                 </Badge>
-                <Avatar alt="Sreekutty" src="/static/images/avatar/1.jpg" />
+                <div className="profile">
+                <NavLink style={{ textDecoration: "none" }} to={"/profile"}><Button variant="text"><Avatar alt="Sreekutty" src="/static/images/avatar/1.jpg" /></Button></NavLink>
+                
+                </div>
+                
             </div>
 
         </div>

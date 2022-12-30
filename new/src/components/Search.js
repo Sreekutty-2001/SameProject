@@ -8,7 +8,7 @@ import Set from './Set'
 
 const Search = () => {
     const [fdata] = useState(Fooddata);
-    console.log(fdata);
+    // console.log(fdata);
     const [copydata, setCopyData] = useState([]);
 
     // console.log(copydata); 

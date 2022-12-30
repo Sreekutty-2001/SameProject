@@ -1,18 +1,25 @@
-const express = require("express")
+const express = require("express");
+const { connectToMongo } = require("./Config/conn");
+// const foodRoute  = require('./Routes/userRoutes');
+const userRoute  = require("./Routes/userRoutes");
 const app = express()
-const port = 4000
-app.listen(port,()=>{
-    console.log("server is running at port :" + port);
-})
+const cookieParser = require('cookie-parser')
+const port = process.env.PORT || 4000;
+const cors =require("cors")
+require("dotenv").config()
 
-const userData = {
-    name : "Sreekutty",
-    age:21,
-    Course:"React"
-}
-app.post('/add',(req,res)=>{
-    // res.send(userData)
-})
-app.get("/getUser",(req,res)=>{
-    res.send(userData)
-})
+
+
+connectToMongo()
+app.use(express.json())
+app.listen(port, console.log(`server started at ${port}`))
+// console.log(process.env.JWT_SECRET_KEY);
+app.use(cookieParser())
+app.use(cors())
+// app.use('/',foodRoute)
+app.use('/', userRoute)
+app.use("/uploads",express.static("./uploads"))
+//  app.get('/cookie',(req,res)=>{
+//     // console.log(req.cookies);
+//     res.send("hello")
+//  })
